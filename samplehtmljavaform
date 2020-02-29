@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="GET">
+<p>User:</p><input type="text"name = "user"></input>
+
+<p>Email:</p><input type="text"name = "email"></input>
+
+<p>Location:</p><input type="text" name = "location"></input>
+
+
+<p>Image:</p><input type="text"name = "image"></input>
+<input type="submit" name =  "submit"><input>
+</form>
+</body>
+
+<table>
+   <tr>
+       <td>User</td>
+    <td>Location</td>
+    <td>Email</td>
+       <td>Image</td>
+   </tr>
+    <tr>
+        <td>{{user}}</td>
+        <td> {{location}}</td>
+        <td>{{email}}</td>
+        <td><img id = "bob" src="{{image}}"></img></td>
+    </tr>
+
+</table>
+<button>Found </button>
+Found:<input type="checkbox" onclick="as("></input>
+
+<script type="text/javascript">
+ function as{
+    document.getElementbyId("bob").innerHTML
+ }
+</script>
+</body>
+
+</html>
+</html>
