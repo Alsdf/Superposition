@@ -12,7 +12,7 @@
       }
     ],
     "browser_action": {
-      "default_icon": "superpositioin.png",
+      "default_icon": "superposition.png",
       "default_popup": "popup.html",
       "default_title": "Check to see if our code is on this page"
     },
