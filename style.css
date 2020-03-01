@@ -1,0 +1,9 @@
+body {
+    background-image:
+      radial-gradient(circle,red,green);
+  }
+  p{
+    color: red;
+    font-size:18px;
+    font-family:cursive;
+  }
