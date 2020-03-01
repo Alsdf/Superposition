@@ -7,7 +7,18 @@
     </head>
     <body style="background-color:#0F0;width:160px;height:90px;">
         <div id="status">
-            <button id="getResults">Get Results</button>
+            <form method="GET">
+                <p>What are you triggered by?</p><input type="text"name = "user"></input>
+
+                <p>Email:</p><input type="text"name = "email"></input>
+
+                <p>Location:</p><input type="text" name = "location"></input>
+
+
+<p>Image:</p><input type="text"name = "image"></input>
+<input type="submit" name =  "submit"><input>
+</form>
+            <button id="getResults">Submit</button>
             <h4 id="results"></h4>
         </div>
     </body>
