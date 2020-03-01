@@ -1,8 +1,8 @@
 {
-    "name": "Getting Started Example",
+    "name": "Zefyr",
     "permissions": ["activeTab"],
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "Create a safe social media!",
     "content_scripts": [
       {
         "matches": [
