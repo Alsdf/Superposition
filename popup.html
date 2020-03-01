@@ -1,29 +1,26 @@
+
 <!DOCTYPE html>
 <!doctype html>
 <html>
     <head>
         <title>Tag Assistant</title>
+        <script src="jquery-3.4.1.js"></script>
         <script src="popup.js"></script>
+          
     </head>
-    <body style="background-color:#0F0;width:160px;height:90px;">
+    <body style="background-color:#c54343;width:160px;height:90px;">
         <div id="status">
+               
             <form method="GET">
-                        <p>User:</p><input type="text"name = "user"></input>
+                        <p>Block User?</p><input type="text"name = "user"></input>
                         
-                        <p>Email:</p><input type="text"name = "email"></input>
+                        <p>Block Word?</p><input type="text"name = "email"></input>
                         
-                        <p>Location:</p><input type="text" name = "location"></input>
+                        <p>Questions?</p><input type="text" name = "location"></input>
 
-                        <p>Choose content you do not want to see:</p> <input type="checkbox" id="trigger1" name="trigger1" value="domesticviolence">
-                        <label for="trigger1"> domestic violence </label> <br>
-                        <input type="checkbox" id="trigger2" name="trigger2" value="terrorattacks">
-                        <label for="trigger2"> terror attacks </label> <br>
-                        <input type="checkbox" id="trigger3" name="trigger3" value="racialslurs">
-                        <label for="trigger3"> racial slurs </label> <br>
-                        <p>Image:</p><input type="text"name = "image"></input>
                         <input type="submit" name =  "submit"><input>
                         </form>
-            <button id="getResults">Get Results</button>
+            <button id="getResults">Submit</button>
             <h4 id="results"></h4>
         </div>
     </body>
